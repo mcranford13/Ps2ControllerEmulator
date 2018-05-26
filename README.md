@@ -28,9 +28,9 @@ Credit
 ---------------
 This would not have been possible for the following, and I highly recommend looking at their stuff for more information:
 
-1. Scanlime - For documenting the ps2 controller protocol, https://gist.github.com/scanlime/5042071
+1. Scanlime        - For documenting the ps2 controller protocol, https://gist.github.com/scanlime/5042071
 2. CuriousInventor - Creating a very easy to follow reference, http://store.curiousinventor.com/guides/PS2/
-3. Aurelio Mannara - Guidance, and Mentoring.
+3. Aurelio Mannara - Guidance and mentoring.
 
 
 
