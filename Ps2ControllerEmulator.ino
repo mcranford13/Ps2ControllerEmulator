@@ -7,13 +7,21 @@
 #define exPin 4
 
 /*
-  Build Process
+  General Process
 
   1. Set up MCU as slave - check
   2. Set up MCU for interrupts, letting the ps2 handle SS and clock rate - check
   3. Collect data regarding the controller state
   4. When an interrupt occurs, transfer this data to the Ps2, byte by byte
-  5.
+  
+  
+  Transfer Data Process:
+  
+  1. Have 1 array (data.response) that can hold all the needed data to transfer.
+  2. For each command we recieve from the ps2, we set up the array for the needed information and the needed response length
+  3. Transfer it one byte at time. (NOTE: One byte per interrupt)
+  4. Except for a few special cases, we don't have to worry about another command from the ps2 until the transfer is complete.
+  5. Reset our index for the next transfer.
 
 */
 
