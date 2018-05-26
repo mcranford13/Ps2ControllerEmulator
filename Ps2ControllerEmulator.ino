@@ -88,13 +88,16 @@ byte getControllerStateFirstByte() {
 
   byte pinState = PIND; //digitalRead() is too slow, we need to read the pins directly from the register
 
-
+  
+  //The following are examples of reading the pins and correctly setting up the data to be transferred.
+  
+/*
   if (!(pinState & 0b00001000)) {
 
     data &= ~0x10; // up
   }
 
-  /*
+  
     if (!(pinState & 00000010)) {
 
 
@@ -113,7 +116,10 @@ byte getControllerStateSecondByte() {
   byte pinState = PIND;
 
   byte data = 0xFF;
+  
+  //The following are examples of reading the pins and correctly setting up the data to be transferred.
 
+  /*
   if (!(pinState & 0b10000000)) {
 
     data &= ~0x10; //triangle
@@ -130,11 +136,11 @@ byte getControllerStateSecondByte() {
     data &= ~0x20; // O
   }
 
-  /*
-      if (!(pinState & 0b00010000)) {
+  if (!(pinState & 0b00010000)) {
 
-        data &= ~0x80; //Square
-      }
+    data &= ~0x80; //Square
+    
+  }
 
 
   */
