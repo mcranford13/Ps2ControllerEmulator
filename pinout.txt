@@ -1,0 +1,4 @@
+Grey, Green, Yellow, Orange, Brown, Blue
+
+Controller Pinout RtoL: Grey, Red, Brown, Gold, Yellow, Blue, Green, Black
+			Rumble, VCC, Data out, Data In, CS, Clock, Ack, Gnd
