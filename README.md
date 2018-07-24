@@ -1,6 +1,7 @@
 # Ps2ControllerEmulator
 Ps2 Controller Emulator for Arduino
 
+NOTE: This code is very outdated and I will be releasing a fully-functioning ps2 controller emulator for PIC architecture soon. Besides rumble, it is complete.
 
 What is this?
 ----------------
@@ -11,6 +12,7 @@ Status
 --------------
 No support for Analog Sticks or Rumble (for now), but everything else works great.
 No support for Guitar Hero Guitar, but that would be very simple to add.
+
 
 External Circuitry / GPIO
 --------------------------
