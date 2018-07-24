@@ -1,7 +1,7 @@
 # Ps2ControllerEmulator
 Ps2 Controller Emulator for Arduino
 
-NOTE: This code is very outdated and I will be releasing a fully-functioning ps2 controller emulator for PIC architecture soon. Besides rumble, it is complete.
+NOTE: This code is very outdated and I will be releasing a fully-functioning ps2 controller emulator for PIC architecture soon. .
 
 What is this?
 ----------------
