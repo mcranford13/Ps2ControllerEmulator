@@ -1,12 +1,12 @@
 # Ps2ControllerEmulator
 Ps2 Controller Emulator for Arduino
 
-NOTE: This code is very outdated and I will be releasing a fully-functioning ps2 controller emulator for PIC architecture soon. .
+NOTE: This code is very outdated and I will be releasing a fully-functioning ps2 controller emulator for PIC architecture soon.
 
 What is this?
 ----------------
 This code turns an arduino into a ps2 controller, created with building a portable Ps2 in mind. 
-For more information check out: https://bitbuilt.net
+
 
 Status
 --------------
@@ -18,7 +18,7 @@ External Circuitry / GPIO
 --------------------------
 Because of the arduino's lack of a Open-Drain configuration on gpio, you will need to add it externally on the MISO and ACK lines.
 
-What I have set up is: MISO <---4.7K resistor ---> B Transistor, E Tranistor <--> GND, C Transistor <-- 10K Resistor --> 3.3v .
+What I have set up is: MISO <---4.7K resistor ---> (Base) Transistor, (Emitter) Tranistor <--> GND, (Collector) Transistor <-- 10K Resistor --> 3.3v .
 
 NOTE: Due to the transistor not being able to switch instantaneously, some glitching on the MISO line may occur.
 
